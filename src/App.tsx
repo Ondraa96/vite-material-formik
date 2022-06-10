@@ -10,6 +10,14 @@ import { boolean, number, object, string } from 'yup';
 import { CheckboxWithLabel, TextField } from 'formik-mui';
 import { useRef, useState } from 'react';
 
+/*
+  Input files:
+  https://www.youtube.com/watch?v=sp9r6hSWH_o&ab_channel=CodeStepByStep
+
+  Material-UI, Formik, Yup
+  https://www.youtube.com/watch?v=me1kY_uFe5k&ab_channel=BrunoAntunes
+*/
+
 function App() {
   const [inputRefs, setInputRefs] = useState({});
 
